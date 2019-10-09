@@ -13,6 +13,8 @@ public class PhoneCamera : MonoBehaviour
     [SerializeField] RawImage background;
     [SerializeField] AspectRatioFitter fit;
 
+    [SerializeField] Text debugTextArea;
+
 //BASE FUNCTION_____________________________________________________________________________________________________________
 
     private void Start()
@@ -21,12 +23,11 @@ public class PhoneCamera : MonoBehaviour
         {
             DisplayCamera();
         }
-
     }
 
     private void Update()
     {
-        UpdateCameraDisplay();
+      //  UpdateCameraDisplay();
     }
 
 //CAMERA PART________________________________________________________________________________________________________________
@@ -38,7 +39,7 @@ public class PhoneCamera : MonoBehaviour
 
         if (devices.Length == 0)
         {
-            Debug.Log("No camera detected");
+            DisplayDebugText("No camera detected");
             camAvailable = false;
             return false;
         }
@@ -52,7 +53,7 @@ public class PhoneCamera : MonoBehaviour
         }
         if (backCamera == null)
         {
-            Debug.Log("Unable to find back camera");
+            DisplayDebugText("Unable to find back camera");
             return false;
         }
         return true;
@@ -64,12 +65,15 @@ public class PhoneCamera : MonoBehaviour
         background.texture = backCamera;
 
         camAvailable = true;
+        UpdateCameraDisplay();
     }
 
     private void UpdateCameraDisplay()
     {
         if (!camAvailable)
+        {
             return;
+        }
         float ratio = (float)backCamera.width / (float)backCamera.height;
         fit.aspectRatio = ratio;
 
@@ -78,5 +82,12 @@ public class PhoneCamera : MonoBehaviour
 
         int orient = -backCamera.videoRotationAngle;
         background.rectTransform.localEulerAngles = new Vector3(0f, 0f, orient);
+    }
+
+//DEBUG___________________________________________________________________________________________________
+
+    private void DisplayDebugText(string text)
+    {
+        debugTextArea.text = text;
     }
 }
