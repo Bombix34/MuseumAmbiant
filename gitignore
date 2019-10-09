@@ -1,0 +1,14 @@
+#WWise gitignore
+
+*.wsettings
+*.validationcache
+*.prof
+#*.akd
+*.cash
+
+/.cache/*
+
+#IncrementalSoundBankData.xml
+BlindTarget/\.cache/
+
+BlindTarget/IncrementalSoundBankData.xml
