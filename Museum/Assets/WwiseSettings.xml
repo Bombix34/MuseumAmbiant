@@ -9,5 +9,5 @@
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2018.1.8.6907/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../../../../Maam_Wwise/Maam_Wwise.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../../Maam_wwise/Maam_Wwise/Maam_Wwise.wproj</WwiseProjectPath>
 </WwiseSettings>
