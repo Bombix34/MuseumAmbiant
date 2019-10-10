@@ -12,14 +12,404 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 180363008cb39415c8d4d01cb3498016, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 6d0bf2b36e040348ad86b349a5a0e254
+    GuidInternal: 
+    m_lastTime: -8586308919634775808
+    List: []
+  - PhysicalPath: Virtual Acoustics/Factory Reflect Acoustic Textures.wwu
+    ParentPhysicalPath: 
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8586308919634775808
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Mountain
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures/Textures/Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8f90c967638f61479ec5cbaa6d4c31a2
+    GuidInternal: 
+    m_lastTime: -8586308907394775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d1b7b2aa893e6947bed923b1cfd5f685
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List:
+    - name: Ben
+      guid: 0db3d3954c16ed419482f772788d26df
+      id: 446279784
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ben
+        ObjectType: 7
+      Path: Default Work Unit/Ben
+    - name: Thomas
+      guid: acd845c68349b14da5ffcbe733d8531a
+      id: 291207189
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Thomas
+        ObjectType: 7
+      Path: Default Work Unit/Thomas
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7256691ed267fe419fef503271d0dfec
+    GuidInternal: 
+    m_lastTime: -8586308908994775808
+    List:
+    - name: Play_Amb_01_Amonytes_Lp
+      guid: d754315919c74442b609212432c77eec
+      id: 3588680408
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Play_Amb_01_Amonytes_Lp
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Play_Amb_01_Amonytes_Lp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Amb_02_PeriodeGlaciaire
+      guid: 25e9c2042ad8a141ae68041442b99f36
+      id: 2755402817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Play_Amb_02_PeriodeGlaciaire
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Play_Amb_02_PeriodeGlaciaire
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Amb_03_Gaulois
+      guid: 9d2fe0c3453af04d99e4070f502d4c10
+      id: 2555890301
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Play_Amb_03_Gaulois
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Play_Amb_03_Gaulois
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Amb_04_Neandertal
+      guid: f3f5cf70cecc00499069b0c4602d38a1
+      id: 3227185398
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Play_Amb_04_Neandertal
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Play_Amb_04_Neandertal
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Amb_05_Afrique
+      guid: 4bbbc5af990ce046a8f948b741810634
+      id: 2338715588
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Play_Amb_05_Afrique
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Play_Amb_05_Afrique
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Amb_01_Amonytes_Lp
+      guid: ef9d687cf3828546846dc538f0a2fac7
+      id: 3429996874
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Stop_Amb_01_Amonytes_Lp
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Stop_Amb_01_Amonytes_Lp
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Amb_02_PeriodeGlaciaire
+      guid: 13c7ff4dd72745428d44f0f6ee1e6ca0
+      id: 1694792927
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Stop_Amb_02_PeriodeGlaciaire
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Stop_Amb_02_PeriodeGlaciaire
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Amb_03_Gaulois
+      guid: 4dc4723dc893484c92a223531fccddc3
+      id: 4209583151
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Stop_Amb_03_Gaulois
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Stop_Amb_03_Gaulois
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Amb_04_Neandertal
+      guid: 7d50d3c0d633ff4faf2b312f3e2b164b
+      id: 1076902576
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Stop_Amb_04_Neandertal
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Stop_Amb_04_Neandertal
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Amb_05_Afrique
+      guid: 32cb7ec955b62443ae5017d1bfe1a038
+      id: 1326156926
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambiances
+        ObjectType: 4
+      - ElementName: Stop_Amb_05_Afrique
+        ObjectType: 3
+      Path: Default Work Unit/Ambiances/Stop_Amb_05_Afrique
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Ben_Gp.wwu
+    ParentPhysicalPath: 
+    guid: 65e295f4d6e07b4c9908f8ee4230e2b9
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List: []
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e775ecb19fc7184b98403304227eda7d
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List: []
+  - PhysicalPath: Game Parameters/Thomas_GP.wwu
+    ParentPhysicalPath: 
+    guid: 1b5deb7f2b030845860bae71499a510f
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: b330c5740ebd79409972ec6a083149ae
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Ben_Sw.wwu
+    ParentPhysicalPath: 
+    guid: ce947241f0f7e349b76ec435cfdd863d
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List: []
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 858825d4699860458675e1f10c113f07
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List: []
+  - PhysicalPath: Switches/Thomas_Sw.wwu
+    ParentPhysicalPath: 
+    guid: 5f3f09b8686c634e9bdf71f812ef30e9
+    GuidInternal: 
+    m_lastTime: -8586308919644775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: caef81a51f764640ac04a3cb80ba351a
+    GuidInternal: 
+    m_lastTime: -8586308919634775808
+    List: []
   ExpandedItems: []
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
