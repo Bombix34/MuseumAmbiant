@@ -3,14 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.XR.ARFoundation;
+//using UnityEngine.XR.ARFoundation;
 using ZXing;
 using ZXing.QrCode;
 
 public class QRCodeSearch : MonoBehaviour
 {
     //AR Camera
-    public ARCameraBackground aRCameraBackground;
+    /*public ARCameraBackground aRCameraBackground;
 
     //Texture temporaire pour récupérer l'affichage caméra
     private RenderTexture rt;
@@ -26,7 +26,7 @@ public class QRCodeSearch : MonoBehaviour
     {
         rt = new RenderTexture(Screen.width, Screen.height, 1, RenderTextureFormat.ARGB32);
 
-     //  test.texture = generateQR("LOLTEST");
+       test.texture = generateQR("LOLTEST");
 
     }
 
@@ -37,18 +37,17 @@ public class QRCodeSearch : MonoBehaviour
 
     public void Read()
     {
-
         Graphics.Blit(null, rt, aRCameraBackground.material);
+        //Sauvegarde de la render texture courante
         RenderTexture rtScreen = RenderTexture.active;
         RenderTexture.active = rt;
 
         // operations
         if(lastCameraTexture==null)
             lastCameraTexture = new Texture2D(rt.width,rt.width, TextureFormat.RGB24,true);
-       // lastCameraTexture.ReadPixels(new Rect(0, 0, rt.width, rt.height), 0, 0);
-       // lastCameraTexture.Apply();
-        test.texture = lastCameraTexture;
-        //lastCameraTexture.GetPixels32();
+        lastCameraTexture.ReadPixels(new Rect(0, 0, rt.width, rt.height), 0, 0);
+        lastCameraTexture.Apply();
+        //test.texture = lastCameraTexture;
         try
         {
             IBarcodeReader barcodeReader = new BarcodeReader();
@@ -92,8 +91,7 @@ public class QRCodeSearch : MonoBehaviour
         };
         return writer.Write(textForEncoding);
     }
-
-
+    */
 
 
 }
