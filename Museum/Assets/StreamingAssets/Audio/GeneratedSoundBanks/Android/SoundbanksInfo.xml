@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>/Users/benjamindarmon/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Git/Maam_wwise/Maam_Wwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/benjamindarmon/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Git/Maam_wwise/Maam_Wwise/.cache/Android/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/benjamindarmon/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Git/MuseumAmbiant/Museum/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Android/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/benjamindarmon/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Desktop/Git/Maam_wwise/Maam_Wwise/GeneratedSoundBanks/Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="291207189" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Thomas</ObjectPath>
+			<ShortName>Thomas</ShortName>
+			<Path>Thomas.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="446279784" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ben</ObjectPath>
+			<ShortName>Ben</ShortName>
+			<Path>Ben.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
